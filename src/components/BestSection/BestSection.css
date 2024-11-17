@@ -1,0 +1,37 @@
+.best-section-container {
+    padding: 68px var(--padding-LR);
+}
+
+.best-resturant-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.best-resturant-conatiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 48px;
+    padding-block: 32px;
+}
+
+.best-resturant-card {
+    width: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.best-resturant-card img {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .best-resturant-conatiner {
+        grid-template-columns: 1fr;
+    }
+    .best-resturant-card {
+        width: auto;
+    }
+}

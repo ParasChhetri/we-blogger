@@ -1,0 +1,27 @@
+.featured-titlle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding-block: 68px;
+}
+
+.dash-2 {
+    display: block;          
+    height: 2px;               
+    width: 50px;               
+    background-color: magenta;   
+    margin: 20px 0; 
+}
+
+.featured-images-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 24px;
+    padding-block: 32px;
+}
+
+.featured-images-container img {
+    margin-inline: 32px;
+}

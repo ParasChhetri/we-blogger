@@ -1,0 +1,28 @@
+.follow-along-container {
+    padding: 68px var(--padding-LR);
+}
+
+.follow-along-image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 48px;
+}
+
+.follow-along-image-container div {
+    height: 400px;
+    width: 300px;
+}
+
+.follow-along-image-container div img {
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .follow-along-image-container {
+        grid-template-columns: 1fr;
+    }
+    .follow-along-image-container div {
+        width: auto;
+    }
+}

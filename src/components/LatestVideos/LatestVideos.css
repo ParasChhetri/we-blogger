@@ -1,0 +1,20 @@
+.latest-videos-container {
+    padding: 68px var(--padding-LR);
+}
+
+.latest-videos-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.latest-videos-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    padding-block: 48px;
+}
+
+.latest-videos-inner div {
+    border: 2px solid red;
+}

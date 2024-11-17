@@ -1,0 +1,145 @@
+.contact-container-main {
+    padding: 68px var(--padding-LR);
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+}
+
+.contact-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-me-container {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.contact-me-icon {
+    height: 40px;
+}
+
+.contact-me-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-container {
+    height: 600px;
+    width: 420px;
+    background: linear-gradient(45deg, blue, magenta,  red, pink);
+    background-size: 400% 400%;
+    animation: glowingGradient 8s ease infinite;
+    padding: 8px;
+    border-radius: 16px;
+}
+
+.bg-inner-container {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg,#000080, #0000FF, #000080);
+    border-radius: 16px;
+    padding: 18px;
+}
+
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 90%;
+}
+
+.contact-form-container input {
+    padding: 8px;
+}
+
+.name-form-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name-form-container input {
+    width: 160px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+}
+
+.email-form-container {
+    width: 100%;
+}
+
+.email-form-container input {
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+.subject-form-container {
+    width: 100%;
+}
+
+.subject-form-container input {
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.message-form-container {
+    width: 100%;
+}
+
+.message-form-container textarea {
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.send-msg-btn {
+    padding: 8px 24px;
+    border:2px solid magenta;
+    background-color: transparent;
+    color: magenta;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+
+@keyframes glowingGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,57 @@
+.join-mail-container {
+    padding: 68px var(--padding-LR);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+.join-mail-left {
+    height: 700px;
+    width: 600px;
+}
+
+.join-mail-left img {
+    height: 100%;
+    width: 100%;
+}
+
+.join-mail-right {
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.form-container input {
+    padding: 18px 26px;
+    width: 350px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 6px;
+}
+
+.join-mail-btn {
+        padding: 8px 24px;
+        border:2px solid magenta;
+        background-color: transparent;
+        color: magenta;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+    .join-mail-container {
+        grid-template-columns: 1fr;
+    }
+}

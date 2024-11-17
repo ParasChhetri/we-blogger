@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --padding-LR : 98px;
+    --font-large : 48px;
+}
+
+.my-font-l {
+    font-size: var(--font-large);
+    font-weight: 600;
+    color: magenta;
+}
+
+.font-paragraph-l {
+    font-size: 20px;
+}
+
+.my-text-capitalize {
+    text-transform: capitalize;
+}
+
+.my-text-upppercase {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+}
+
+.title-font {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.discription-font {
+    font-size: 18px;
+}
+
+.my-text-justify {
+    text-align: justify;
+}
+
+.padding-1 {
+    padding: 16px 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+}

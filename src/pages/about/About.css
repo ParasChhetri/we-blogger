@@ -1,0 +1,81 @@
+.about-container {
+    padding: 68px var(--padding-LR);
+}
+
+.about-me-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+}
+
+.about-me-left {
+    display: flex;
+    flex-direction: column;
+    height: 460px;
+    justify-content: space-evenly;
+}
+
+.about-me-right {
+    height: 600px;
+    width: 600px;
+}
+
+.about-me-right img {
+    height: 100%;
+    width: 100%;
+}
+
+.trishnoor-quote {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+}
+
+.trishnoor-quote-left {
+    height: 600px;
+    width: 600px;
+}
+
+.trishnoor-quote-left img {
+    height: 100%;
+    width: 100%;
+}
+
+.about-me-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 460px;
+}
+
+.quote p {
+    font-size: 42px;
+}
+
+.signature-font {
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 38px;
+}
+
+@media (max-width : 768px) {
+    .about-me-container {
+        grid-template-columns: 1fr;
+    }
+    .trishnoor-quote {
+        grid-template-columns: 1fr;
+    }
+}

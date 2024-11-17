@@ -1,0 +1,32 @@
+.fame-count-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 68px var(--padding-LR);
+}
+
+.fame-count-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fame-count-left div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.fame-count-left div>:nth-child(1) {
+    font-size: 38px;
+}
+
+@media (max-width: 768px) {
+    .fame-count-container {
+        grid-template-columns: 1fr;
+    }
+    .fame-count-left {
+        flex-direction: column;
+        gap: 32px;
+    }
+}

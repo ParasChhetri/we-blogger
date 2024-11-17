@@ -1,0 +1,35 @@
+.invite-me-container {
+    padding: 68px var(--padding-LR);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    align-items: center;
+}
+
+.invite-me-heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.font-google-cursive {
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+}
+
+.font-google-cursive-2 {
+    font-family: "Caveat", cursive;
+    font-size: 28px;
+}
+
+.invit-me-btn {
+    padding: 8px 24px;
+    border:2px solid magenta;
+    background-color: transparent;
+    color: magenta;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
